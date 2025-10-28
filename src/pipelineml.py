@@ -7,7 +7,7 @@ from model_registry import register_model
 
 def main():
     # Load data
-    data = load_data("D:/Proyectos/mlflow/repositorios/Introduction-to-mlflow/data/in/application_data.csv")
+    data = load_data("D:/Proyectos/mlflow/repositorios/introduction-to-mlflow/data/in/application_data.csv")
     
     # Prepare data
     X_train, X_test, y_train, y_test = prepare_data(data)
