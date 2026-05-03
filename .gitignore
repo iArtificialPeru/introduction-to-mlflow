@@ -1,7 +1,5 @@
-# MLflow runtime
 mlruns/
 mlruns.db
 *.db
-
-# Datasets generados
 produced-dataset.csv
+.DS_Store
